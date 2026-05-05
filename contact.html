@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact & Commande | AFROSTYLE SHOP</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <nav class="scrolled">
+        <div class="logo">
+            <a href="index.html"><img src="images/logo.png" alt="AFROSTYLE SHOP Logo"></a>
+        </div>
+        <ul class="nav-links">
+            <li><a href="index.html">Accueil</a></li>
+            <li><a href="collections.html">Collections</a></li>
+            <li><a href="produits.html">Produits</a></li>
+            <li><a href="about.html">À Propos</a></li>
+            <li><a href="contact.html">Contact/Commande</a></li>
+        </ul>
+    </nav>
+
+    <section style="margin-top: 80px;">
+        <div class="section-title">
+            <h2>Contact & Commande</h2>
+            <p style="text-align: center; color: #6B7280; max-width: 600px; margin: 0 auto;">Une pièce vous fait envie ? Remplissez ce formulaire pour passer une commande ou demander des informations. Nous vous recontacterons sous 24h.</p>
+        </div>
+
+        <div class="form-container">
+            <form action="#">
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="name">Nom Complet</label>
+                        <input type="text" id="name" name="name" placeholder="Votre nom" required>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Adresse E-mail</label>
+                        <input type="email" id="email" name="email" placeholder="votre@email.com" required>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="phone">Numéro de Téléphone</label>
+                        <input type="tel" id="phone" name="phone" placeholder="+221 ..." required>
+                    </div>
+                    <div class="form-group">
+                        <label for="product">Produit Souhaité</label>
+                        <select id="product" name="product" required>
+                            <option value="" disabled selected>Choisir un produit</option>
+                            <option value="chemise">Chemise Wax</option>
+                            <option value="robe">Robe Africaine</option>
+                            <option value="boubou">Boubou Moderne</option>
+                            <option value="sac">Sac Artisanal</option>
+                            <option value="sandales">Sandales</option>
+                            <option value="ensemble">Ensemble Homme</option>
+                            <option value="jupe">Jupe Longue Wax</option>
+                            <option value="accessoire">Accessoire Traditionnel</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group">
+                        <label for="size">Taille</label>
+                        <select id="size" name="size">
+                            <option value="s">S</option>
+                            <option value="m">M</option>
+                            <option value="l">L</option>
+                            <option value="xl">XL</option>
+                            <option value="xxl">XXL</option>
+                            <option value="custom">Sur mesure</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="color">Couleur Préférée</label>
+                        <input type="text" id="color" name="color" placeholder="Ex: Dominante Jaune, Bleu...">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="message">Message ou Précisions</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Dites-nous en plus sur votre demande..."></textarea>
+                </div>
+
+                <div style="text-align: center;">
+                    <button type="submit" class="btn btn-primary" style="width: 200px;">Envoyer</button>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <section style="background-color: #FEF3C7;">
+        <div class="grid">
+            <div style="text-align: center;">
+                <h3 style="margin-bottom: 10px;">📍 Boutique</h3>
+                <p>Avenue Léopold Sédar Senghor,<br>Dakar, Sénégal</p>
+            </div>
+            <div style="text-align: center;">
+                <h3 style="margin-bottom: 10px;">📞 Téléphone</h3>
+                <p>+221 77 000 00 00<br>+221 33 000 00 00</p>
+            </div>
+            <div style="text-align: center;">
+                <h3 style="margin-bottom: 10px;">📱 Réseaux Sociaux</h3>
+                <p>@afrostyle_shop<br>Facebook | Instagram | WhatsApp</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>AFROSTYLE SHOP</h3>
+                <p>L'élégance africaine revisitée pour le monde moderne.</p>
+            </div>
+            <div class="footer-section">
+                <h3>Liens Rapides</h3>
+                <ul class="footer-links">
+                    <li><a href="index.html">Accueil</a></li>
+                    <li><a href="collections.html">Collections</a></li>
+                    <li><a href="produits.html">Produits</a></li>
+                    <li><a href="about.html">À Propos</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>Contact</h3>
+                <ul class="footer-links">
+                    <li>📍 Dakar, Sénégal - Plateau</li>
+                    <li>📞 +221 77 000 00 00</li>
+                    <li>✉️ contact@afrostyle.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>Copyright &copy; 2026 AFROSTYLE SHOP. Tous droits réservés.</p>
+        </div>
+    </footer>
+</body>
+</html>
